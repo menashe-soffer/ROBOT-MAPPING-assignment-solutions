@@ -12,6 +12,7 @@ here is the path with the original variances:
 ![ekf_330_0 01](https://github.com/user-attachments/assets/ff56aac5-0818-49d9-8e71-eb5aa297085f)
 
 and here is the path with "infinite" sensor noise variance: 
+(since the correction step is neutralized, the uncertainty ellipses are huge, though the actual locations are very accurate).
 ![ekf_330_100000000000 01](https://github.com/user-attachments/assets/df393a46-87b1-48fb-acbe-2bdb7ddd1466)
 
 

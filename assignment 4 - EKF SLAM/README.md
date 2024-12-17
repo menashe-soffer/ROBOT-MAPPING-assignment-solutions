@@ -1,0 +1,10 @@
+Assignment 4 is the first "real" coding assignmnet in the course.
+A 2D EKF filter to track the path of a robot in 2D, with 9 landmarks.
+The data (odometry and sensor readings in range/bearing format) is given in a single file in the data folder, as well as a file with ground trith landmark locations.
+All the code is in the python folder.
+### If you intend to run the code, don't forget to add an empty folder named plots into which the plots will be written.
+
+In principle I have used the recomended noise variances, but I suspect they are not the best for the data: the motion (odometry) seems quite accurate, while the sensor data is very noisy. In fact, with the correction step, mainly the path seems to become eratic. with "infinite" observation variances (nulling kalman gain), the path looks much smoother and ends up in the same place.
+maybe one day I will add odometry noise to make the excersize more illustrative.
+
+here is the path with the original variances: 

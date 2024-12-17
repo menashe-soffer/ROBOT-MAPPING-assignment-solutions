@@ -7,4 +7,5 @@ All the code is in the python folder.
 In principle I have used the recomended noise variances, but I suspect they are not the best for the data: the motion (odometry) seems quite accurate, while the sensor data is very noisy. In fact, with the correction step, mainly the path seems to become eratic. with "infinite" observation variances (nulling kalman gain), the path looks much smoother and ends up in the same place.
 maybe one day I will add odometry noise to make the excersize more illustrative.
 
-here is the path with the original variances: 
+here is the path with the original variances: ![ekf_330_0 01](https://github.com/user-attachments/assets/ff56aac5-0818-49d9-8e71-eb5aa297085f)
+and here is the path with "infinite" sensor noise variance: 

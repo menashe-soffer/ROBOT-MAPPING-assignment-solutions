@@ -4,7 +4,10 @@ The data (odometry and sensor readings in range/bearing format) is given in a si
 All the code is in the python folder.
 ### If you intend to run the code, don't forget to add an empty folder named plots into which the plots will be written.
 
-In principle I have used the recomended noise variances, but I suspect they are not the best for the data: the motion (odometry) seems quite accurate, while the sensor data is very noisy. In fact, with the correction step, mainly the path seems to become eratic. with "infinite" observation variances (nulling kalman gain), the path looks much smoother and ends up in the same place.
+#### comments:
+
+1. In the original assignment, the guida was to stack all the observations from each step and proccess jointly (stack all observation Jacobian matrices Hi and calculate "joint" kalman gain). I the code I have made update for each observation seperately, thus only inverting 2x2 matrices. This follows the lecture notes, BTW. I confirmed that he results are indistinguishable.
+2. In principle I have used the recomended noise variances, but I suspect they are not the best for the data: the motion (odometry) seems quite accurate, while the sensor data is very noisy. In fact, with the correction step, mainly the path seems to become eratic. with "infinite" observation variances (nulling kalman gain), the path looks much smoother and ends up in the same place.
 
 
 here is the path with the original variances:

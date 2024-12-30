@@ -1,4 +1,4 @@
-Assignment 5 is similar in its structure to assignment 4, but the solution should be done using different tool: UKF instead of EKF.
+Assignment 6 is similar in its structure to assignment 4, but the solution should be done using different tool: UKF instead of EKF.
 While the EKF the updated gaussians are calculated using a linearized version of the non-linear odometry and sensor data, in UKF they are estimated using “unscented transform”.
 
 ### I have already noticed in assignment 4, that the odometry data is very clean, and the sensor is not; the correction step actually deteriorates the prediction.

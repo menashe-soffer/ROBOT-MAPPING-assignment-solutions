@@ -4,6 +4,12 @@ This is relatively easy assignmnet.
 
 I did not use Bresenham's algorithm for the trajectories; made a naive masks instead. The python code is faster than the octave.
 
-![alt text](https://github.com/menashe-soffer/ROBOT-MAPPING-assignment-solutions/blob/main/assignment%207%20part%201%20-%20gridmaps/plots/gridmap_0.5.mp4)
 
-![alt text](https://github.com/menashe-soffer/ROBOT-MAPPING-assignment-solutions/blob/main/assignment%207%20part%201%20-%20gridmaps/plots/gridmap_0.1.mp4)
+here is the low resolution result:
+
+![alt text](https://github.com/menashe-soffer/ROBOT-MAPPING-assignment-solutions/blob/main/assignment%207%20part%201%20-%20gridmaps/plots/gridmap_686_0.1.png)
+
+
+and here is the high res one:
+
+![alt text](https://github.com/menashe-soffer/ROBOT-MAPPING-assignment-solutions/blob/main/assignment%207%20part%201%20-%20gridmaps/plots/gridmap_686_0.1.png)

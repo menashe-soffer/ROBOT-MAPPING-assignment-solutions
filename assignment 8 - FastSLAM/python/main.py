@@ -42,9 +42,6 @@ for t in range(len(data)):
 
     particles = resample(particles)
 
-
-
-
-print('here')
+    plt.savefig('../plots/fastslam_{:03d}.png'.format(t+1), format='PNG')
 
 

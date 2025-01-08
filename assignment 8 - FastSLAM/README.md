@@ -13,4 +13,10 @@ I am not 100% satisfied with this version, I hope to make some updates in the fu
 * The estimated landmark variances are inherently shrinking; there is no prediction step done on the landmark estimations that expands the variances, only correction that shrink it. the variance do not realy reprisent the uncertainty, we quicly get particles with wrong landmakrk locations yet very small covaruances, I have add artificial lower bound on variance.
 * it is crutial that the variances are not way off: too high variance will "wash out" the differences amont the weights, to small variances will make the weights irrelevant.
 * The output throughout most of the simulation cycle is very irritating, as there are many particles that evolved with wrong robot states (mainly orientation) but at the same time with landmark estimations that are in good agreement with the wrong robot state. those particle are dropped only during the last steps of the flow, when the robot "close loop" and re-observe landmarks that were observed before, so that the last ~50 time steps or so look nicer.
-* 
+
+
+
+
+
+
+<img src="https://github.com/menashe-soffer/ROBOT-MAPPING-assignment-solutions/blob/main/assignment%208%20-%20FastSLAM/plots/fastslam_331.png">
